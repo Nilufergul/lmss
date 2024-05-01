@@ -1,0 +1,205 @@
+{% load static %}
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>CSELMS</title>
+      <link rel="stylesheet" href="{% static 'css/styledashboard.css' %}" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+      <div class="container">
+        <nav>
+
+          <ul>
+
+            <li><a href="#" class="logo">
+              <img src="https://i.ibb.co/yVHVPdb/acu.png" alt="">
+              <span class="nav-item">DashBoard</span>
+            </a></li>
+
+            <li><a href="#">
+                <i class='bx bx-user-circle'></i>
+              <span class="nav-item"><b>User</b></span>
+            </a></li>
+
+            <li><a href="">
+                <i class='bx bxs-book-content'></i>
+              <span class="nav-item"><b>Lessons</b></span>
+            </a></li>
+
+            <li><a href="">
+                <i class='bx bxs-calendar'></i>
+              <span class="nav-item"><b>Calender</b></span>
+            </a></li>
+
+            <li><a href="">
+                <i class='bx bxs-note'></i>
+              <span class="nav-item"><b>Notes</b></span>
+            </a></li>
+
+            <li><a href="">
+                <i class='bx bxs-navigation'></i>
+              <span class="nav-item"><b>Announcements</b></span>
+            </a></li>
+
+            <li><a href="">
+                <i class='bx bxs-cog' ></i>
+              <span class="nav-item"><b>Settings</b></span>
+            </a></li>
+
+            <li><a href="" class="logout">
+                <i class='bx bx-log-in-circle'></i>
+              <span class="nav-item"><b>Logout</b></span>
+            </a></li>
+
+          </ul>
+
+        </nav>
+    
+        <section class="main">
+            <h3>Welcome Ahmet. Time to Study!</h3>
+
+          <div class="main-skills">
+            <div class="card">
+            <i class='bx bx-objects-vertical-bottom'></i>
+              <h3>Exams</h3>
+              <h2>5
+              </h2>
+              <button>Get Started</button>
+            </div>
+
+            <div class="card">
+                <i class='bx bxs-bookmark'></i>
+              <h3>Assignments</h3>
+              <h2>8</h2>
+              <button>Get Started</button>
+            </div>
+
+            <div class="card">
+                <i class='bx bx-book'></i>
+              <h3>New Uploads</h3>
+              <h2>13</h2>
+              <button>Get Started</button>
+            </div>
+
+          </div>
+    
+          <section class="main-course">
+
+            <h1>My Assignments</h1>
+            <div class="course-box">
+              <ul>
+                <li class="active">Current</li>
+                <li>Incoming</li>
+                <li>Finished</li>
+              </ul>
+              <div class="course">
+                <div class="box">
+                  <h3>CSE101</h3>
+                  <p>30% - progress</p>
+                  <button>Continue</button>
+                  <i class='bx bxl-python'></i>
+                </div>
+
+                <div class="box">
+                  <h3>CSE202</h3>
+                  <p>90% - Progress</p>
+                  <button>Continue</button>
+                  <i class='bx bxl-postgresql' ></i>
+                </div>
+
+                <div class="box">
+                  <h3>Web Development</h3>
+                  <p>70% - Progress</p>
+                  <button>Continue</button>
+                  <i class='bx bxl-django' ></i>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section class="third">
+
+        <div class="profile-section">
+            <div class="profile-card">
+                <div class="profile-pic">
+                    <img src="https://i.ibb.co/Qr5Rjmv/profile.jpg" alt="Profile">
+                </div>
+                <h3 class="profile-name">Name Surname</h3>
+                <p class="profile-role">Student</p>
+            </div>
+        </div>
+
+            <div class="datepicker">
+                <div class="datepicker-top">
+                    <div class="btn-group">
+                        <button class="tag">Today</button>
+                        <button class="tag">Tomorrow</button>
+                    </div>
+                    <div class="month-selector">
+                        <button class="arrow"><i class="material-icons">Left</i></button>
+                        <span class="month-name">December 2024</span>
+                        <button class="arrow"><i class="material-icons">Right</i></button>
+                    </div>
+                </div>
+                <div class="datepicker-calendar">
+                    <span class="day">Mo</span>
+                    <span class="day">Tu</span>
+                    <span class="day">We</span>
+                    <span class="day">Th</span>
+                    <span class="day">Fr</span>
+                    <span class="day">Sa</span>
+                    <span class="day">Su</span>
+                    <button class="date faded">30</button>
+                    <button class="date">1</button>
+                    <button class="date">2</button>
+                    <button class="date">3</button>
+                    <button class="date">4</button>
+                    <button class="date">5</button>
+                    <button class="date">6</button>
+                    <button class="date">7</button>
+                    <button class="date">8</button>
+                    <button class="date current-day">9</button>
+                    <button class="date">10</button>
+                    <button class="date">11</button>
+                    <button class="date">12</button>
+                    <button class="date">13</button>
+                    <button class="date">14</button>
+                    <button class="date">15</button>
+                    <button class="date">16</button>
+                    <button class="date">17</button>
+                    <button class="date">18</button>
+                    <button class="date">19</button>
+                    <button class="date">20</button>
+                    <button class="date">21</button>
+                    <button class="date">22</button>
+                    <button class="date">23</button>
+                    <button class="date">24</button>
+                    <button class="date">25</button>
+                    <button class="date">26</button>
+                    <button class="date">27</button>
+                    <button class="date">28</button>
+                    <button class="date">29</button>
+                    <button class="date">30</button>
+                    <button class="date">31</button>
+                    <button class="date faded">1</button>
+                    <button class="date faded">2</button>
+                    <button class="date faded">3</button>
+                </div>
+            </div>
+
+        </section>
+        
+
+
+           
+    
+      </div>
+    </body>
+    </html>
+
+  

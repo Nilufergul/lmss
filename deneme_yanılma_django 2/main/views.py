@@ -26,3 +26,31 @@ def create_lesson(request):
 def my_lessons(request):
     lessons = Lesson.objects.all()
 
+
+
+def loginPage(request):
+    return render(request, 'login.html')
+
+def dashboardPage(request):
+    return render(request, 'dashboard.html')
+
+def userPage(request):
+    return render(request, 'user.html')
+
+def myLessonsPage(request):
+    return render(request, 'mylessons.html')
+
+def calenderPage(request):
+    return render(request, 'calender.html')
+
+def notesPage(request):
+    return render(request, 'notes.html')
+
+def announcementsPage(request):
+    return render(request, 'announcements.html')
+
+def settingsPage(request):
+    return render(request, 'settings.html')
+
+def sidebar(request):
+    return render(request, 'sidebar.html')
